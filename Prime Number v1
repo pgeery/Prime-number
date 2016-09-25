@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a =17;
+    int osztokszama=0;
+    for (int i=2;i<=a;i++)
+    {
+        if (a%i==0)
+        {
+            osztokszama++;
+        }
+
+        printf("%d ",i);
+    }
+    printf("Az osztok szama : %d",osztokszama+1);
+
+
+
+		return 0;
+}
