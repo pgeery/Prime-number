@@ -1,21 +1,27 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
-    int a =17;
-    int osztokszama=0;
-    for (int i=2;i<=a;i++)
+    int szam;
+    scanf("%d",&szam);
+    for (int k=2;k<=szam;k++)
     {
-        if (a%i==0)
+
+
+    int osztokszama=0;
+    for (int i=2;i<=k;i++)
+    {
+        if (k%i==0)
         {
             osztokszama++;
         }
 
-        printf("%d ",i);
-    }
-    printf("Az osztok szama : %d",osztokszama+1);
 
+    }
+    if (osztokszama <=1)
+    {
+        printf("%d\t",k);
+    }
+
+    }
 
 
 		return 0;
