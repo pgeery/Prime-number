@@ -1,0 +1,25 @@
+h1 {
+  color:          rgba(0,0,0,.8);     // szín, (piros, zöld, kék, átlátszóság)
+  font-family:    serif;              // betűtípus
+  font-size:      36px;               // betűméret
+  line-height:    1.58;               // sormagasság
+  letter-spacing: -.003em;            // betűköz
+  text-align:     center;             // szöveg igazítása
+}
+
+img {
+  height:         auto;               // magasság
+  width:          100%;               // szélesség
+}
+
+figure {
+  margin:         0;                  // margó
+}
+
+article {
+  margin:         0 auto;             // középre rendezett
+}
+
+a:hover {
+                                      // az egér éppen ide mutat állapot
+}
