@@ -1,0 +1,14 @@
+<title>Az oldal címe</title>
+
+<h1>A legfontosabb címsor</h1>
+<h6>A legkisebb címsor</h6>
+
+<figure>
+  <img src="http://a-kep-cime.jpg" alt="alternatív szöveg">
+  <figcaption>Képaláírás</figcaption>
+</figure>
+
+<article>
+  <p>Bekezdés <a href="http://link-valahova.hu" title="A hivatkozott oldal címe">egy kattintható linkkel</a></p>
+  <p>Egy másik bekezdés <strong>kiemelten hangsúlyos tartalommal</strong>.</p>
+</article>
